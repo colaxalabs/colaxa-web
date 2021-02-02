@@ -196,7 +196,7 @@ function App() {
       <Footer className='align_jumbotron' style={{ backgroundColor: '#7546C9', width: '100%' }}>
         <Space>
           <Avatar src='https://gateway.pinata.cloud/ipfs/QmRscHXWxeV9gYix9GuY5adTETzJxjsusazMq5UQSJBgAJ' />
-          <Link style={{ color: '#fff', fontSize: 18, paddingLeft: 20 }}href='#' target='_blank'>
+          <Link style={{ color: '#fff', fontSize: 18, paddingLeft: 20 }}href='mailto:taxaprotocols@gmail.com' target='_blank'>
             Contact
           </Link>
         </Space>
