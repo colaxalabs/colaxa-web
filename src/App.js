@@ -33,18 +33,22 @@ function App() {
           </Menu.Item>
           <SubMenu key='products' title='Products'>
             <Menu.Item key='reap' style={{ height: '100px' }}>
+              <a href='https://reap.colaxa.org' rel='noreferrer' target='_blank'>
                 <Space align='start' direction='vertical'>
                   <Text>Reap</Text>
                   <Text type='secondary'>Buy, Sell, & Trace farm harvest</Text>
                 </Space>
+              </a>
             </Menu.Item>
           </SubMenu>
           <Menu.Item key='guides'>
+            <a href='https://hackmd.io/@qPtRW4tNR2KxOuqBVUBp5A/S1y1dnIgu' rel='noreferrer' target='_blank'>
               Guides
+            </a>
           </Menu.Item>
           <Button
             type='primary'
-            href='#'
+            href='https://reap.colaxa.org'
             target='_blank'
             style={{
               float: 'right',
@@ -64,6 +68,8 @@ function App() {
               <Button
                 style={{ width: '120px', margin: '30px 0' }}
                 size='large'
+                href='https://reap.colaxa.org'
+                target='_blank'
                 type='primary'
               >
                 Launch App
@@ -139,6 +145,8 @@ function App() {
                 style={{ width: '120px', margin: '30px 0', alignSelf: 'center' }}
                 type='primary'
                 size='large'
+                href='https://reap.colaxa.org'
+                target='_blank'
               >
                 Get Started
               </Button>
@@ -153,7 +161,7 @@ function App() {
             <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }} xs={24} xl={6}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmQzwuMR1YoS8m94L2bAfmYvA1rGkqS7ZTDXQUYPfKT6e7' size={40} shape='square' />
-                <Link style={{ alignSelf: 'center' }} href='#' target='_blank'>
+                <Link style={{ alignSelf: 'center' }} href='https://discord.gg/gdRktec' rel='noreferrer' target='_blank'>
                   Discord
                 </Link>
               </Space>
@@ -161,7 +169,7 @@ function App() {
             <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }}xs={24} xl={6}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmNh2ouqELdAWjJx6BCDs3TW3uWnoBDRzzj3YEC6xNgv6K' size={40} shape='square' />
-                <Link style={{ alignSelf: 'center' }} href='#' target='_blank'>
+                <Link style={{ alignSelf: 'center' }} href='https://twitter.com/colaxalabs' rel='noreferrer' target='_blank'>
                   Twitter
                 </Link>
               </Space>
@@ -169,7 +177,7 @@ function App() {
             <Col xs={24} xl={6} className='align_jumbotron' style={{ justifyContent: 'center', padding: '10px' }}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmebfDWrKoe4nJrZaoWA3XB5oMcqP7R6LyzjqZyaWRHwWt' size={40} shape='square' />
-                <Link href='#' target='_blank' style={{ alignSelf: 'center' }}>
+                <Link href='https://t.me/colaxa' rel='noreferrer' target='_blank' style={{ alignSelf: 'center' }}>
                   Telegram
                 </Link>
               </Space>
@@ -177,7 +185,7 @@ function App() {
             <Col xs={24} xl={6} className='align_jumbotron' style={{ justifyContent: 'center', padding: '10px' }}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmW7BHZpPMHWjcqpFr5saN1GVSDMrrMvu2inuY4wn7ktAg' size={40} shape='square' />
-                <Link href='#' target='_blank' style={{ alignSelf: 'center' }}>
+                <Link href='https://github.com/colaxalabs' rel='noreferrer' target='_blank' style={{ alignSelf: 'center' }}>
                   GitHub
                 </Link>
               </Space>
