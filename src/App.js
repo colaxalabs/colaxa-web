@@ -33,18 +33,14 @@ function App() {
           </Menu.Item>
           <SubMenu key='products' title='Products'>
             <Menu.Item key='reap' style={{ height: '100px' }}>
-              <a href='#' target='_blank'>
                 <Space align='start' direction='vertical'>
                   <Text>Reap</Text>
                   <Text type='secondary'>Buy, Sell, & Trace farm harvest</Text>
                 </Space>
-              </a>
             </Menu.Item>
           </SubMenu>
           <Menu.Item key='guides'>
-            <a href='#' target='_blank'>
               Guides
-            </a>
           </Menu.Item>
           <Button
             type='primary'
