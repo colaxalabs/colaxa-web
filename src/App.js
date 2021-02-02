@@ -158,7 +158,7 @@ function App() {
             </Col>
           </Row>
           <Row style={{ padding: '0 20px', minHeight: 250 }}>
-            <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }} xs={24} xl={6}>
+            <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }} xs={24} xl={8}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmQzwuMR1YoS8m94L2bAfmYvA1rGkqS7ZTDXQUYPfKT6e7' size={40} shape='square' />
                 <Link style={{ alignSelf: 'center' }} href='https://discord.gg/gdRktec' rel='noreferrer' target='_blank'>
@@ -166,7 +166,7 @@ function App() {
                 </Link>
               </Space>
             </Col>
-            <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }}xs={24} xl={6}>
+            <Col className='align_jumbotron' style={{ padding: '10px', justifyContent: 'center' }}xs={24} xl={8}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmNh2ouqELdAWjJx6BCDs3TW3uWnoBDRzzj3YEC6xNgv6K' size={40} shape='square' />
                 <Link style={{ alignSelf: 'center' }} href='https://twitter.com/colaxalabs' rel='noreferrer' target='_blank'>
@@ -174,15 +174,7 @@ function App() {
                 </Link>
               </Space>
             </Col>
-            <Col xs={24} xl={6} className='align_jumbotron' style={{ justifyContent: 'center', padding: '10px' }}>
-              <Space direction='vertical' style={{ alignSelf: 'center' }}>
-                <Avatar src='https://gateway.pinata.cloud/ipfs/QmebfDWrKoe4nJrZaoWA3XB5oMcqP7R6LyzjqZyaWRHwWt' size={40} shape='square' />
-                <Link href='https://t.me/colaxa' rel='noreferrer' target='_blank' style={{ alignSelf: 'center' }}>
-                  Telegram
-                </Link>
-              </Space>
-            </Col>
-            <Col xs={24} xl={6} className='align_jumbotron' style={{ justifyContent: 'center', padding: '10px' }}>
+            <Col xs={24} xl={8} className='align_jumbotron' style={{ justifyContent: 'center', padding: '10px' }}>
               <Space direction='vertical' style={{ alignSelf: 'center' }}>
                 <Avatar src='https://gateway.pinata.cloud/ipfs/QmW7BHZpPMHWjcqpFr5saN1GVSDMrrMvu2inuY4wn7ktAg' size={40} shape='square' />
                 <Link href='https://github.com/colaxalabs' rel='noreferrer' target='_blank' style={{ alignSelf: 'center' }}>
